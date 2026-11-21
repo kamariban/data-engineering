@@ -16,7 +16,6 @@ df = pd.DataFrame(data)
 print(df.columns)
 
 
-
 class TaxiPipeline:
 
     def __init__(self, spark, input_path, output_path):
